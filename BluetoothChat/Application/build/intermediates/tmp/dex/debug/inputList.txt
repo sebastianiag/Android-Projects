@@ -1,0 +1,6 @@
+/home/nephilim/Documents/Projects/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/classes/debug
+/home/nephilim/Documents/Projects/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-88e38ed589a8a8a822c0ccd2ce0243ee8da99e43.jar
+/home/nephilim/Documents/Projects/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/pre-dexed/debug/classes-eeb5919dcedfa3d8f6d8a93a13b8e52dfa3b54ca.jar
+/home/nephilim/Documents/Projects/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/pre-dexed/debug/classes-4ede997df47e9ea905c20f68b3cfda7e68f32608.jar
+/home/nephilim/Documents/Projects/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-4aada3e0e3aa1a3eb5cebae37337c6c66a4e8df2.jar
+/home/nephilim/Documents/Projects/AndroidStudioProjects/BluetoothChat/Application/build/intermediates/pre-dexed/debug/classes-3a94c99379e1a163685575f7ea991d507873db0d.jar

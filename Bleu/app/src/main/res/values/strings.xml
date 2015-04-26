@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, FileExplore!</string>
+    <string name="app_name">Prima Vita</string>
+    <string name="BluetoothError">Bluetooth not supported. Abort!</string>
+    <string name="BluetoothErrorTitle">Error</string>
+    <string name="title_activity_connect">connectActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Shiragiku</string>
+    <string name="url_hint">Enter url</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_image_downloader">ImageDownloaderActivity</string>
+	<string name="description">"\t 4chan thread images downloader \n\t\t\tby Anonymouse"</string>
+	<string name="waiting">"Images are now downloading... \n\t Relax, the machines are now in control \n\t\t =)" </string>
+	<string name="banner_alt">"muh banner"</string>
+	<string name="button">Download</string>
+	<string name="scrape_another">"Scrape another thread?"</string>
+	<color name="color">#272822</color>
+	<color name="text_box">#000000</color>
+	<color name="font">#A6E22E</color>
+	<color name="hint_color">#D3D3D3</color>
+	
+</resources>

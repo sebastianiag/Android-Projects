@@ -1,0 +1,88 @@
+ 
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.sushimaan.shiragiku.UrlActivity" >
+
+    <Button
+        android:id="@+id/download_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/url_input"
+        android:layout_marginTop="49dp"
+        android:text="@string/button" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/download_button"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/font"
+        android:textSize="65sp"
+        android:typeface="monospace" />
+
+    <CheckBox
+        android:id="@+id/include_webm"
+        android:button="@drawable/custom_checbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/download_button"
+        android:layout_alignLeft="@+id/url_input"
+        android:layout_marginLeft="32dp" />
+
+    <CheckBox
+        android:id="@+id/include_png"
+        android:button="@drawable/custom_checbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/include_webm"
+        android:layout_alignLeft="@+id/include_webm" />
+
+    <CheckBox
+        android:id="@+id/include_jpg"
+        android:button="@drawable/custom_checbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/include_png"
+        android:layout_alignLeft="@+id/include_png" />
+
+    <EditText
+        android:id="@+id/url_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/download_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="82dp"
+        android:background="@color/text_box"
+        android:ems="10"
+        android:hint="@string/url_hint"
+        android:inputType="textUri"
+        android:textColor="@color/font"
+        android:textColorHint="@color/hint_color" />
+
+    <CheckBox
+        android:id="@+id/scrape_404"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/include_jpg"
+        android:layout_alignLeft="@+id/include_jpg"
+        android:layout_marginBottom="46dp"
+        android:button="@drawable/custom_checbox" />
+
+    <CheckBox
+        android:id="@+id/include_gif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/include_jpg"
+        android:layout_alignLeft="@+id/scrape_404"
+        android:button="@drawable/custom_checbox" />
+
+</RelativeLayout>
